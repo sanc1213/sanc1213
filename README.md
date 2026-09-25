@@ -142,7 +142,16 @@ Open to collaboration & internship opportunities
   It needs no secrets — the built-in GITHUB_TOKEN is enough.
 -->
 <!--START_REPOS-->
-_This section refreshes automatically once the workflow below has run at least once._
+**[sanc1213](https://github.com/sanc1213/sanc1213)** — My GitHub profile and developer portfolio  
+`N/A` · ⭐ 0
+
+**[AI-Chatbot](https://github.com/sanc1213/AI-Chatbot)** — Developed a multi-modal AI assistant capable of text conversations, code assistance, image generation, and voice-based interaction. Designed a Flask-based backend API architecture for handling AI services and frontend communication. Implemented modular Python components using OOP principles and managed source control using Git/GitHub.  
+`Python` · ⭐ 1
+
+**[B-Tree-Based-Student-Database-Management-System-DBMS-Mini-Project-B.Tech-CSE-](https://github.com/sanc1213/B-Tree-Based-Student-Database-Management-System-DBMS-Mini-Project-B.Tech-CSE-)** — This DBMS mini project demonstrates B+ Tree indexing using MySQL and Python. It manages student records with insert, search, and display operations. Indexes on primary key and marks improve query performance. The system measures execution time to compare indexed searches and range queries, showing how B+ Trees optimize data retrieval in databases.  
+`HTML` · ⭐ 0
+
+
 <!--END_REPOS-->
 
 <img src="https://raw.githubusercontent.com/sanc1213/sanc1213/main/shimmer-divider.svg" width="100%" height="4" alt=""/>
