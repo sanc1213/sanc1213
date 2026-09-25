@@ -24,7 +24,7 @@
 
 ## About Me
 
-I'm a **B.Tech CSE** student and an aspiring **Software Engineer**, focused on **Full-Stack Development**, **AI**, and **Backend Engineering**. I enjoy building practical, working software — from web applications to intelligent tools — and I'm steadily exploring **cloud technologies** as I grow as a developer. I learn best by shipping real projects rather than just studying theory.
+I'm a **B.Tech CSE** student and an aspiring **Software Engineer**, focused on **Full-Stack Development**, **AI**, and **Backend Engineering**. I enjoy building practical, working software — from web applications to intelligent tools — and I'm steadily exploring **AI** and Implementing it as a Developer. I learn best by shipping real AI-Based projects rather than just studying theory.
 
 <br/>
 
@@ -116,12 +116,11 @@ A mini project demonstrating **B+ Tree indexing** using MySQL and Python. Manage
 
 ## Currently Learning
 
+<img src="https://img.shields.io/badge/Software_Engineering-1a1a2e?style=flat-square&logo=codereview&logoColor=6C8EF5" />
 <img src="https://img.shields.io/badge/MERN_Stack-1a1a2e?style=flat-square&logo=mongodb&logoColor=6C8EF5" />
 <img src="https://img.shields.io/badge/Artificial_Intelligence-1a1a2e?style=flat-square&logo=openai&logoColor=6C8EF5" />
-<img src="https://img.shields.io/badge/Cloud_Computing-1a1a2e?style=flat-square&logo=amazonaws&logoColor=6C8EF5" />
-<img src="https://img.shields.io/badge/Backend_Development-1a1a2e?style=flat-square&logo=nodedotjs&logoColor=6C8EF5" />
+<img src="https://img.shields.io/badge/Machine-Learning-1a1a2e?style=flat-square&logo=amazonaws&logoColor=6C8EF5" />
 <img src="https://img.shields.io/badge/DSA-1a1a2e?style=flat-square&logo=leetcode&logoColor=6C8EF5" />
-<img src="https://img.shields.io/badge/Software_Engineering-1a1a2e?style=flat-square&logo=codereview&logoColor=6C8EF5" />
 
 <br/>
 <br/>
