@@ -1,0 +1,60 @@
+name: Update Latest Repositories
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"   # every 6 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch repos and build markdown list
+        run: |
+          USERNAME="sanc1213"
+
+          curl -s "https://api.github.com/users/$USERNAME/repos?sort=updated&per_page=100" \
+            | jq -r '[.[] | select(.fork == false)] | sort_by(.pushed_at) | reverse | .[0:6]' \
+            > repos.json
+
+          {
+            echo ""
+            jq -r '.[] | "**[" + .name + "](" + .html_url + ")** — " + (.description // "No description provided") + "  \n`" + (.language // "N/A") + "` · ⭐ " + (.stargazers_count | tostring) + "\n"' repos.json
+            echo ""
+          } > repo_list.md
+
+      - name: Inject list into README between markers
+        run: |
+          python3 - <<'PYEOF'
+          import re
+
+          with open("repo_list.md", encoding="utf-8") as f:
+              block = f.read()
+
+          with open("README.md", encoding="utf-8") as f:
+              readme = f.read()
+
+          new_readme = re.sub(
+              r"<!--START_REPOS-->.*?<!--END_REPOS-->",
+              "<!--START_REPOS-->" + block + "<!--END_REPOS-->",
+              readme,
+              flags=re.DOTALL,
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_readme)
+          PYEOF
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update latest repositories"
+          file_pattern: README.md
