@@ -143,7 +143,7 @@ Open to collaboration & internship opportunities
 -->
 <!--START_REPOS-->
 **[sanc1213](https://github.com/sanc1213/sanc1213)** — My GitHub profile and developer portfolio  
-`N/A` · ⭐ 0
+`N/A` · ⭐ 1
 
 **[AI-Chatbot](https://github.com/sanc1213/AI-Chatbot)** — Developed a multi-modal AI assistant capable of text conversations, code assistance, image generation, and voice-based interaction. Designed a Flask-based backend API architecture for handling AI services and frontend communication. Implemented modular Python components using OOP principles and managed source control using Git/GitHub.  
 `Python` · ⭐ 1
