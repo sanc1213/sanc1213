@@ -1,0 +1,4 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#00f5ff"/><stop offset=".5" stop-color="#b084f5"/><stop offset="1" stop-color="#ff4ecd"/></linearGradient></defs>
+<path fill="url(#w)" fill-opacity=".25"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 60 Q300 0 600 60 T1200 60 V140 H0Z;M0 60 Q300 120 600 60 T1200 60 V140 H0Z;M0 60 Q300 0 600 60 T1200 60 V140 H0Z"/></path>
+<path fill="url(#w)" fill-opacity=".5"><animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 90 Q300 40 600 90 T1200 90 V140 H0Z;M0 90 Q300 130 600 90 T1200 90 V140 H0Z;M0 90 Q300 40 600 90 T1200 90 V140 H0Z"/></path>
+<text x="600" y="120" text-anchor="middle" font-family="Fira Code,Consolas,monospace" font-size="14" fill="#fff">© sanc1213 · built with ♥ and too much caffeine</text></svg>
